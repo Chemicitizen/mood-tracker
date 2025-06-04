@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f2f2f2;
+  padding: 2rem;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background: #e0e0e0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #d4d4d4;
+}
+
+button.selected {
+  background: #ffd54f;
+}
+
+.result {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #333;
+}
